@@ -1,0 +1,54 @@
+﻿Filename,ncol,nrow ,Unit,Description
+aerodyn.bin,NA,NA,NA,NA
+BOC_irradiance.bin,4324,timesteps,Wm-2 um-1,First 2162 columns: shaded fraction. Last 2162 columns: average BOC irradiance.
+fluorescence_emitted_by_all_leaves.bin,211,timesteps,W m-2 um-1,total emitted fluorescence by all leaves for wavelengths of 640 to 850 nm
+fluorescence_emitted_by_all_photosystems.bin,211,timesteps,W m-2 um-1,total emitted fluorescence by all photosystems for wavelengths of 640 to 850 nm
+fluorescence_hemis.bin,211,timesteps,W m-2 um-1,hemispherically integrated fluorescence per simulation for wavelengths of 640 to 850 nm
+fluorescence_scattered.bin,211,timesteps,W m-2 um-1 sr-1,TOC fluorescence contribution from from leaves and soil after scattering for wavelenghts of 640 to 850 nm
+fluorescence_shaded.bin,211,timesteps,W m-2 um-1 sr-1,TOC fluorescence contribution from shaded leaves for wavelengths of 640 to 850 nm
+fluorescence_sunlit.bin,211,timesteps,W m-2 um-1 sr-1,TOC fluorescence contribution from sunlit leaves for wavelengths of 640 to 850 nm
+fluorescence.bin,211,timesteps,W m-2 um-1 sr-1,fluorescence per simulation for wavelengths of 640 to 850 nm
+fluxes.bin,30,timesteps,,Different columns with different units
+gap.bin,93,timesteps,,"Fraction leaves in the sun,  fraction of observed,  fraction of observed&visible per layer, rows: simulations or time steps, columns: layer numbers. * 31 times 3 because of 30 canopy layers and 1 soil layer."
+irradiance_spectra.bin,2162,timesteps,W m-2 um-1,irradiance
+layer_A.bin,31,timesteps,umol m-2 s-1,"photosynthesis per layer, all layers plus respiration from soil."
+layer_aPAR_Cab.bin,31,timesteps,umol m-2 s-1,"aPAR by Cab per leaf layer, all layer of canopy and last layer is always zero."
+layer_aPAR.bin,31,timesteps,umol m-2 s-1,"aPAR per leaf layer,  all layer of canopy and last layer is always zero."
+layer_fluorescence.bin,31,timesteps,W m-2,"supward fluorescence per layer, last layer always zero."
+layer_fluorescenceEm.bin,NA,NA,NA,NA
+layer_H.bin,31,timesteps,W m-2,"sensible heat flux per layer, all canopy layer plus soil layer."
+layer_Hch.bin,31,timesteps,W m-2,"sensible heat flux per layer for shaded part, all canopy layer plus last one is soil layer"
+layer_Hcu.bin,31,timesteps,W m-2,
+layer_lE.bin,31,timesteps,W m-2,
+layer_lEch.bin,31,timesteps,W m-2,
+layer_lEcu.bin,31,timesteps,W m-2,
+layer_NPQ.bin,31,timesteps,W m-2,
+layer_Rn.bin,31,timesteps,W m-2,
+layer_Rnch.bin,31,timesteps,W m-2,
+layer_Rncu.bin,31,timesteps,W m-2,
+leaftemp.bin,90,timesteps,degreeC,"leaf temperature of sunlit leaves, shaded leaves and  and weighted average leaf temperature per layer"
+lqvh.binh.bin,NA,NA,NA,NA
+pars_and_input_short.bin,NA,NA,NA,NA
+pars_and_input.bin,NA,NA,NA,NA
+qla.bin,54,timesteps,cm s-1,At different soil depths.
+qlh.bin,54,timesteps,cm s-1,At different soil depths.
+qlt.bin,54,timesteps,cm s-1,At different soil depths.
+qtot.bin,54,timesteps,cm s-1,At different soil depths.
+qva.bin,54,timesteps,cm s-1,At different soil depths.
+qvh.bin,54,timesteps,cm s-1,At different soil depths.
+qvt.bin,54,timesteps,cm s-1,At different soil depths.
+radiation.bin,11,timesteps,,different radiation component with different units
+reflectance.bin,2162,timesteps,,"reflectance, fraction of radiation in observation direction *pi / irradiance"
+resistance_canopy_aerodynamic.bin,30,timesteps,s m-1,
+resistance_canopy_boundary.bin,30,timesteps,s m-1,
+resistance.bin,17,timesteps,,different components with different units
+Sim_hh.bin,54,timesteps,cm,At different soil depths.
+Sim_Temp.bin,54,timesteps,degreeC,At different soil depths.
+Sim_Theta.bin,54,timesteps,m3 per m3,At different soil depths.
+spectrum_hemis.bin,2162,timesteps,W m-2 um-1,hemispherically integrated radiation spectrum
+spectrum_obsdir_BlackBody.bin,2162,timesteps,W m-2 sr-1 um-1,thermal BlackBody emission spectrum in observation direction
+spectrum_obsdir.bin,2162,timesteps,W m-2 sr-1 um-1,radiance spectrum in observation direction
+surftemp.bin,8,timesteps,,Different temperature components with different units
+waterPotential.bin,4,timesteps,,different components with different units
+waterStressFactor.bin,4,timesteps,,different components with different units
+wl.bin,NA,NA,NA,NA

@@ -35,6 +35,9 @@ logging.info("Connection established and authenticated.")
 df_station_details = pd.read_csv(path_station_details)
 logging.info(f"Loaded station metadata from: {path_station_details}")
 
+# Define the time range for which Sentinel-2 data should be retrieved
+time_range = ["2015-07-04", "2024-03-31"]
+
 def get_bbox_polygon(latitude: float, longitude: float, buffer_m: float) -> dict:
     """
     Return a GeoJSON polygon representing a square buffer around a point.
@@ -88,8 +91,6 @@ def getBAP(scl, data):
     # Return the masked data for further processing (e.g., spatial aggregation)
     return data_masked
 
-# Define the time range for which Sentinel-2 data should be retrieved
-time_range = ["2015-07-04", "2024-03-31"]
 
 # Loop over each station name in the DataFrame
 for station in df_station_details.station_name:

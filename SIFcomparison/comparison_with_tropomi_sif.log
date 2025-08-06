@@ -1,0 +1,73 @@
+2025-04-01 11:47:56,088 - INFO - Script started: Comparison of Model Output and TROPOMI SIF
+2025-04-01 11:48:01,619 - INFO - Completed station BE-Lon: R^2 = 0.48, Observations = 891
+2025-04-01 11:48:07,757 - INFO - Completed station CH-Oe2: R^2 = 0.44, Observations = 559
+2025-04-01 11:48:10,275 - INFO - Completed station CZ-KrP: R^2 = 0.31, Observations = 890
+2025-04-01 11:48:15,499 - INFO - Completed station DE-Geb: R^2 = 0.40, Observations = 560
+2025-04-01 11:48:20,473 - INFO - Completed station DE-Kli: R^2 = 0.30, Observations = 560
+2025-04-01 11:48:23,641 - INFO - Completed station DE-RuS: R^2 = 0.30, Observations = 891
+2025-04-01 11:48:25,428 - INFO - Completed station FI-Qvd: R^2 = -0.79, Observations = 890
+2025-04-01 11:48:30,094 - INFO - Completed station FR-Aur: R^2 = 0.32, Observations = 890
+2025-04-01 11:48:35,772 - INFO - Completed station FR-Gri: R^2 = 0.42, Observations = 891
+2025-04-01 11:48:39,884 - INFO - Completed station FR-Lam: R^2 = 0.33, Observations = 560
+2025-04-01 11:48:39,885 - WARNING - No model output file found for station IT-BCi
+2025-04-01 11:48:41,811 - INFO - Completed station BE-Maa: R^2 = -0.20, Observations = 560
+2025-04-01 11:48:43,784 - INFO - Completed station CZ-Lnz: R^2 = 0.10, Observations = 560
+2025-04-01 11:48:46,917 - INFO - Completed station CZ-Stn: R^2 = 0.43, Observations = 560
+2025-04-01 11:48:53,020 - INFO - Completed station DE-Hai: R^2 = 0.36, Observations = 891
+2025-04-01 11:48:55,041 - INFO - Completed station DE-HoH: R^2 = 0.21, Observations = 560
+2025-04-01 11:48:58,181 - INFO - Completed station DE-Hzd: R^2 = -0.19, Observations = 560
+2025-04-01 11:49:04,042 - INFO - Completed station DK-Sor: R^2 = 0.54, Observations = 891
+2025-04-01 11:49:08,875 - INFO - Completed station FR-Fon: R^2 = 0.35, Observations = 891
+2025-04-01 11:49:11,468 - INFO - Completed station FR-Hes: R^2 = 0.17, Observations = 891
+2025-04-01 11:49:16,392 - INFO - Completed station GF-Guy: R^2 = -1.95, Observations = 559
+2025-04-01 11:49:21,823 - INFO - Completed station CH-Dav: R^2 = -0.20, Observations = 560
+2025-04-01 11:49:26,660 - INFO - Completed station CZ-BK1: R^2 = -0.58, Observations = 560
+2025-04-01 11:49:29,572 - INFO - Completed station CZ-RAJ: R^2 = -0.04, Observations = 560
+2025-04-01 11:49:33,272 - INFO - Completed station DE-Obe: R^2 = -0.44, Observations = 560
+2025-04-01 11:49:36,856 - INFO - Completed station DE-RuW: R^2 = -0.29, Observations = 890
+2025-04-01 11:49:42,025 - INFO - Completed station DE-Tha: R^2 = 0.09, Observations = 560
+2025-04-01 11:49:48,327 - INFO - Completed station FI-Hyy: R^2 = -0.43, Observations = 560
+2025-04-01 11:49:49,731 - INFO - Completed station FI-Ken: R^2 = -0.69, Observations = 560
+2025-04-01 11:49:53,493 - INFO - Completed station FI-Let: R^2 = -0.41, Observations = 891
+2025-04-01 11:49:55,935 - INFO - Completed station FI-Var: R^2 = -0.06, Observations = 891
+2025-04-01 11:49:58,406 - INFO - Completed station FR-Bil: R^2 = -0.26, Observations = 891
+2025-04-01 11:50:03,868 - INFO - Completed station IL-Yat: R^2 = -1.16, Observations = 891
+2025-04-01 11:50:09,384 - INFO - Completed station IT-Lav: R^2 = -0.52, Observations = 560
+2025-04-01 11:50:15,430 - INFO - Completed station IT-Ren: R^2 = -0.44, Observations = 891
+2025-04-01 11:50:18,337 - INFO - Completed station IT-SR2: R^2 = -1.21, Observations = 891
+2025-04-01 11:50:23,193 - INFO - Completed station NL-Loo: R^2 = -0.12, Observations = 225
+2025-04-01 11:50:23,194 - WARNING - No model output file found for station NL-Spe
+2025-04-01 11:50:25,425 - INFO - Completed station RU-Fy2: R^2 = 0.28, Observations = 891
+2025-04-01 11:50:30,519 - INFO - Completed station RU-Fyo: R^2 = 0.30, Observations = 560
+2025-04-01 11:50:32,794 - INFO - Completed station SE-Htm: R^2 = 0.08, Observations = 891
+2025-04-01 11:50:35,240 - INFO - Completed station SE-Nor: R^2 = -0.22, Observations = 891
+2025-04-01 11:50:38,054 - INFO - Completed station SE-Ros: R^2 = -0.48, Observations = 891
+2025-04-01 11:50:40,464 - INFO - Completed station SE-Svb: R^2 = -0.91, Observations = 891
+2025-04-01 11:50:43,821 - INFO - Completed station BE-Dor: R^2 = 0.52, Observations = 891
+2025-04-01 11:50:48,673 - INFO - Completed station CH-Aws: R^2 = -1.33, Observations = 560
+2025-04-01 11:50:53,535 - INFO - Completed station CH-Cha: R^2 = 0.27, Observations = 560
+2025-04-01 11:50:58,454 - INFO - Completed station CH-Fru: R^2 = 0.17, Observations = 560
+2025-04-01 11:51:03,381 - INFO - Completed station DE-Gri: R^2 = 0.04, Observations = 560
+2025-04-01 11:51:06,989 - INFO - Completed station DE-RuR: R^2 = -0.01, Observations = 891
+2025-04-01 11:51:06,990 - WARNING - No model output file found for station FR-Tou
+2025-04-01 11:51:12,279 - INFO - Completed station IT-MBo: R^2 = 0.26, Observations = 560
+2025-04-01 11:51:16,048 - INFO - Completed station IT-Tor: R^2 = -0.59, Observations = 560
+2025-04-01 11:51:22,354 - INFO - Completed station NL-Cab: R^2 = 0.44, Observations = 890
+2025-04-01 11:51:24,555 - INFO - Completed station NL-Vee: R^2 = 0.35, Observations = 889
+2025-04-01 11:51:29,702 - INFO - Completed station BE-Bra: R^2 = 0.09, Observations = 560
+2025-04-01 11:51:35,703 - INFO - Completed station BE-Vie: R^2 = 0.04, Observations = 891
+2025-04-01 11:51:39,323 - INFO - Completed station FR-FBn: R^2 = -1.31, Observations = 560
+2025-04-01 11:51:39,324 - WARNING - No model output file found for station IT-Cp2
+2025-04-01 11:51:42,569 - ERROR - An error occurred for station ES-Agu: Found array with 0 sample(s) (shape=(0,)) while a minimum of 1 is required.
+2025-04-01 11:51:47,967 - INFO - Completed station ES-LJu: R^2 = -0.06, Observations = 890
+2025-04-01 11:51:50,032 - INFO - Completed station IT-Lsn: R^2 = 0.40, Observations = 891
+2025-04-01 11:51:52,411 - INFO - Completed station ES-Abr: R^2 = -0.35, Observations = 891
+2025-04-01 11:51:54,955 - INFO - Completed station ES-LM1: R^2 = -1.33, Observations = 891
+2025-04-01 11:51:57,489 - INFO - Completed station ES-LM2: R^2 = -1.53, Observations = 891
+2025-04-01 11:52:01,945 - INFO - Completed station CZ-wet: R^2 = -0.64, Observations = 560
+2025-04-01 11:52:01,946 - WARNING - No model output file found for station DE-Akm
+2025-04-01 11:52:03,973 - INFO - Completed station FI-Sii: R^2 = -0.45, Observations = 560
+2025-04-01 11:52:05,681 - INFO - Completed station FR-LGt: R^2 = -0.13, Observations = 559
+2025-04-01 11:52:11,652 - INFO - Completed station SE-Deg: R^2 = -0.69, Observations = 891
+2025-04-01 11:52:14,450 - INFO - Completed station ES-Cnd: R^2 = -0.41, Observations = 890
+2025-04-01 11:52:14,452 - INFO - Script completed successfully. Results saved to comparison_results.csv
