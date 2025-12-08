@@ -9,7 +9,7 @@ ee.Initialize()
 
 # paths
 station_info_path = "/home/khanalp/code/PhD/preprocessICOSdata/csvs/01_stationinfo_L0_ICOS2025_with_heights.csv"
-output_dir = "/home/khanalp/paper01/MODISLST/"
+output_dir = "/home/khanalp/paper01/MODISLST/withqc/"
 os.makedirs(output_dir, exist_ok=True)
 
 # Set up logging
@@ -36,6 +36,7 @@ def process(img):
 
 # for each station, get MODIS LST data
 for station in df_station_details['station_name'].unique():
+    
     try:
         logging.info(f"Processing station: {station}")
         # Define point and time range
@@ -43,7 +44,7 @@ for station in df_station_details['station_name'].unique():
         latitude = df_station_details[df_station_details['station_name'] == station]['latitude'].values[0]
         start_date = df_station_details[df_station_details['station_name'] == station]['start_date'].values[0]  
         end_date = df_station_details[df_station_details['station_name'] == station]['end_date'].values[0]
-        
+    
         logging.debug(f"{station} - Location: ({latitude}, {longitude}), Period: {start_date} to {end_date}")
         point = ee.Geometry.Point([longitude, latitude])
 
@@ -53,7 +54,8 @@ for station in df_station_details['station_name'].unique():
             .filterBounds(point) \
             .select([
                 'LST_Day_1km', 'Day_view_time',
-                'LST_Night_1km', 'Night_view_time'
+                'LST_Night_1km', 'Night_view_time',
+                'QC_Day', 'QC_Night'
             ])
             
         logging.debug(f"{station} - Image collection filtered, starting to apply processing.")        
@@ -80,7 +82,7 @@ for station in df_station_details['station_name'].unique():
         # Convert 'Day_view_time' from tenths of hours to hours
         df['Night_view_time'] = df['Night_view_time'].astype(float) * 0.1
         # Keep only relevant columns
-        df = df[['LST_Day_C', 'Day_view_time','LST_Night_C', 'Night_view_time']]
+        df = df[['LST_Day_C', 'Day_view_time','LST_Night_C', 'Night_view_time','QC_Day', 'QC_Night']]
         # Save the cleaned DataFrame
         output_path = f"{output_dir}{station}_MODIS_LST.csv"
         df.to_csv(output_path)
